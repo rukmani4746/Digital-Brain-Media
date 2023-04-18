@@ -11,10 +11,7 @@ export default function Home() {
       <div className="header">
         <h1>Welcome to TASK LISTER</h1>
         <h3>Developed by RUKMANI AHIRWAR</h3>
-        <img className="todoImg" src={user.imageUrl}
-        alt={'Photo of ' + user.name}
-        
-        ></img>
+      
         
       </div>
       <div className="nav-links">
@@ -27,6 +24,10 @@ export default function Home() {
         <Link to={"/register"} className="nav-link">
           Register
         </Link>
+        <img className="todoImg" src={user.imageUrl}
+        alt={'Photo of ' + user.name}
+        
+        ></img>
       </div>
     </>
   );
